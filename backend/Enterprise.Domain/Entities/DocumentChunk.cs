@@ -1,0 +1,16 @@
+using Enterprise.Domain.Common;
+
+namespace Enterprise.Domain.Entities;
+
+public class DocumentChunk : BaseEntity
+{
+    public Guid DocumentId { get; set; }
+
+    public int ChunkIndex { get; set; }
+
+    public int PageNumber { get; set; }
+
+    public string Content { get; set; } = string.Empty;
+
+    public Document Document { get; set; } = null!;
+}
