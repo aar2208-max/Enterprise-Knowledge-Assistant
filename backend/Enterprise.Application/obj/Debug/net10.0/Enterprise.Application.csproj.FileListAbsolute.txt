@@ -1,0 +1,16 @@
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\bin\Debug\net10.0\Enterprise.Application.deps.json
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\bin\Debug\net10.0\Enterprise.Application.dll
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\bin\Debug\net10.0\Enterprise.Application.pdb
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\bin\Debug\net10.0\Enterprise.Domain.dll
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\bin\Debug\net10.0\Enterprise.Domain.pdb
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.csproj.AssemblyReference.cache
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.AssemblyInfoInputs.cache
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.AssemblyInfo.cs
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.csproj.CoreCompileInputs.cache
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.sourcelink.json
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterpri.48A1D7A1.Up2Date
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.dll
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\refint\Enterprise.Application.dll
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\Enterprise.Application.pdb
+D:\Projects\Enterprise-Knowledge-Assistant\backend\Enterprise.Application\obj\Debug\net10.0\ref\Enterprise.Application.dll
