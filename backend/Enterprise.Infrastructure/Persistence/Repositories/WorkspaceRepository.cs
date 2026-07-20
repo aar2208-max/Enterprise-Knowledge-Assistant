@@ -18,6 +18,13 @@ public class WorkspaceRepository : IWorkspaceRepository
         return await _context.Workspaces.ToListAsync();
     }
 
+    public async Task<List<Workspace>> GetByCreatedByAsync(Guid createdBy)
+    {
+        return await _context.Workspaces
+            .Where(x => x.CreatedBy == createdBy)
+            .ToListAsync();
+    }
+
     public async Task<Workspace?> GetByIdAsync(Guid id)
     {
         return await _context.Workspaces

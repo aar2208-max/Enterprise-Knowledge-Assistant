@@ -21,11 +21,21 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
+.vs/
 
 # Dotnet artifacts
 backend/**/bin/
 backend/**/obj/
 backend/**/*.user
+backend/**/*.suo
+backend/**/*.userosscache
+backend/**/*.sln.docstates
+backend/Uploads/
+
+# Node artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
 
 # Python artifacts
 ai-service/__pycache__/

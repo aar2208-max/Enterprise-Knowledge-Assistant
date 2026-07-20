@@ -40,4 +40,15 @@ public class DocumentRepository : IDocumentRepository
 
         await _context.SaveChangesAsync();
     }
+
+    public async Task DeleteAsync(Guid id)
+    {
+        var document = await _context.Documents.FindAsync(id);
+
+        if (document is null)
+            return;
+
+        _context.Documents.Remove(document);
+        await _context.SaveChangesAsync();
+    }
 }

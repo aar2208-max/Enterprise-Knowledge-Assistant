@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Enterprise.Application.Features.Workspaces.Commands.CreateWorkspace;
 
-public record CreateWorkspaceCommand(string Name, string Description) : IRequest<CreateWorkspaceResult>;
+public record CreateWorkspaceCommand(string Name, string Description, Guid CreatedBy) : IRequest<CreateWorkspaceResult>;
 
 public record CreateWorkspaceResult(Guid Id, string Name, string Description);
 
@@ -22,7 +22,8 @@ public class CreateWorkspaceCommandHandler : IRequestHandler<CreateWorkspaceComm
         var workspace = new Workspace
         {
             Name = request.Name,
-            Description = request.Description
+            Description = request.Description,
+            CreatedBy = request.CreatedBy
         };
 
         await _workspaceRepository.AddAsync(workspace);
